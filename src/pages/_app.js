@@ -1,11 +1,7 @@
 import App from 'next/app';
 import { ThemeProvider } from 'styled-components';
-import {
-  ThemeProvider as ChakraProvider,
-  CSSReset,
-  Box,
-} from '@chakra-ui/core';
-import { theme } from '@chakra-ui/core';
+import { ChakraProvider, CSSReset, Box } from '@chakra-ui/react';
+import { theme } from '@chakra-ui/react';
 
 function MyApp({ Component, pageProps }) {
   return (
