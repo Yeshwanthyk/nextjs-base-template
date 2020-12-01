@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
       <ThemeProvider theme={theme}>
         <>
           <CSSReset />
-          <Box padding={8} maxWidth="80%" margin="auto">
+          <Box>
             <Component {...pageProps} />
           </Box>
         </>
