@@ -18,4 +18,4 @@ This starter contains,
 * Framer Motion
 * Prettier + ESLint
 * Formik
-* Apollo GraphQL
+* SWR
