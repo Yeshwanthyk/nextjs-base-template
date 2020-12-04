@@ -10,10 +10,13 @@
   "rules": {
     "react/prop-types": 0,
     "react-hooks/rules-of-hooks": "error",
-    "no-console": "warn"
+    "react-hooks/exhaustive-deps": "warn",
+    "sort-imports": "off",
+    "import/order": "off",
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error"
   },
-  "parser": "babel-eslint",
-  "plugins": ["react", "import", "jsx-a11y", "react-hooks"],
+  "plugins": ["react", "simple-import-sort", "import", "jsx-a11y", "react-hooks"],
   "parserOptions": {
     "ecmaVersion": 2018,
     "sourceType": "module",
