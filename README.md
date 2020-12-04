@@ -17,5 +17,5 @@ This starter contains,
 * Chakra UI
 * Framer Motion
 * Prettier + ESLint
-* Formik
+* React Hook Forms
 * SWR
