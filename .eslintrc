@@ -13,8 +13,11 @@
     "react-hooks/exhaustive-deps": "warn",
     "sort-imports": "off",
     "import/order": "off",
-    "simple-import-sort/imports": "error",
-    "simple-import-sort/exports": "error"
+    "simple-import-sort/exports": "error",
+    "import/no-unresolved": [
+      "off", 
+      { "caseSensitive": false }
+   ]
   },
   "plugins": ["react", "simple-import-sort", "import", "jsx-a11y", "react-hooks"],
   "parserOptions": {
